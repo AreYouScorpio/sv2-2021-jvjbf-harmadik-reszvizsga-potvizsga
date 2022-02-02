@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContentServiceTest {
 
-/*
+
     ContentService contentService;
 
     @BeforeEach
@@ -26,6 +26,7 @@ class ContentServiceTest {
         contentService.addContent(new Video("Cute Kittens", 12));
         contentService.addContent(new Podcast("Java 17 News", List.of("Jack", "Jill")));
     }
+
 
 
     @Test
@@ -64,7 +65,7 @@ class ContentServiceTest {
 
         assertEquals("Content name is already taken: Cute Kittens", iae.getMessage());
     }
-
+/*
     @Test
     void logInTest() {
 
