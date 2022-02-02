@@ -23,7 +23,7 @@ class VideoTest {
 
     @Test
     void clickTest(){
-        Content podcast = new Video("Java Language", 14);
+        Content podcast = new Video("Java Language", 16);
         podcast.click(new User("username","1234"));
         assertEquals(1, podcast.clickedBy().size());
         assertEquals("username",podcast.clickedBy().get(0).getUserName());
