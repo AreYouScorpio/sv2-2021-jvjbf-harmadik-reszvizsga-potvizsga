@@ -29,13 +29,15 @@ class ExamServiceTest {
 
     }
 
-    /*
+
 
     @Test
     void readFromWrongPath() {
         IllegalArgumentException iae = assertThrows(IllegalArgumentException.class, () -> examService.readFromFIle(Path.of("src/main/java/data.txt")));
         assertEquals("Cannot read file: src\\main\\java\\data.txt", iae.getMessage());
     }
+
+
 
     @Test
     void testFindPeopleFailed() {
@@ -49,5 +51,5 @@ class ExamServiceTest {
 
 
 
-     */
+
 }
