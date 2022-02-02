@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExamServiceTest {
 
-    /*
+
     ExamService examService;
 
     @BeforeEach
@@ -28,6 +28,8 @@ class ExamServiceTest {
         assertEquals(42, examService.getResults().get("Jack Smith").getTheory());
 
     }
+
+    /*
 
     @Test
     void readFromWrongPath() {
