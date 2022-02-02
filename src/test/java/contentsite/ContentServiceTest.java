@@ -91,7 +91,7 @@ class ContentServiceTest {
 
         assertEquals("Password is Invalid!", iae.getMessage());
     }
-/*
+
     @Test
     void clickOnContentTest() {
         User user = contentService.getAllUsers().stream().filter(u -> u.getUserName().equals("jack")).findFirst().get();
@@ -129,5 +129,5 @@ class ContentServiceTest {
     }
 
 
- */
+
 }
