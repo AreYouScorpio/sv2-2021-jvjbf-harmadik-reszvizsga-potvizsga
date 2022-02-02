@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class VideoTest {
 
-/*
+
 
     @Test
     void createVideo(){
@@ -28,7 +28,7 @@ class VideoTest {
         assertEquals(1, podcast.clickedBy().size());
         assertEquals("username",podcast.clickedBy().get(0).getUserName());
     }
-
+/*
     @Test
     void getClickedByTest(){
         Content podcast = new Video("Java Language", 16);

@@ -19,4 +19,20 @@ public class User {
     public void setLogIn(boolean value){
         this.isOnline = value;
     }
+
+    public String getUserName() {
+        return UserName;
+    }
+
+    public int getPassword() {
+        return password;
+    }
+
+    public boolean isPremiumMember() {
+        return isPremium;
+    }
+
+    public boolean isLogIn() {
+        return isOnline;
+    }
 }
