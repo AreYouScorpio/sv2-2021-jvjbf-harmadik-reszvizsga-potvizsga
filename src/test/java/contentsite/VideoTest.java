@@ -20,7 +20,7 @@ class VideoTest {
         Content video1 = new Video("Little kittens", 14);
         assertFalse(video1.isPremiumContent());
     }
-/*
+
     @Test
     void clickTest(){
         Content podcast = new Video("Java Language", 14);
@@ -41,6 +41,6 @@ class VideoTest {
     }
 
 
- */
+
 
 }

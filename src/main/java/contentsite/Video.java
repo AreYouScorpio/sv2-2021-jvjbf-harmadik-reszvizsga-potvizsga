@@ -26,12 +26,12 @@ public class Video implements Content {
 
     @Override
     public List<User> clickedBy() {
-        return users;
+        return new ArrayList<>(users);
     }
 
     @Override
     public void click(User user) {
-        if(user.isLogIn() && (!isPremiumContent() || user.isPremiumMember()))
+//        if(user.isLogIn() && (!isPremiumContent() || user.isPremiumMember()))
             users.add(user);
     }
 

@@ -34,7 +34,7 @@ public class Podcast implements Content{
 
     @Override
     public List<User> clickedBy() {
-        return users;
+        return new ArrayList<>(users);
     }
 
     @Override
