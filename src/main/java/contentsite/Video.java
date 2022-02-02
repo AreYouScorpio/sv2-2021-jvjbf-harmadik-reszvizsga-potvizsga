@@ -8,7 +8,7 @@ public class Video implements Content {
 
     private String title;
     private int length;
-    private List<User> users=new ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
     public Video(String title, int length) {
         this.title = title;
@@ -17,7 +17,7 @@ public class Video implements Content {
 
     @Override
     public boolean isPremiumContent() {
-        return length>15;
+        return length > 15;
     }
 
     public String getTitle() {
@@ -31,17 +31,12 @@ public class Video implements Content {
 
     @Override
     public void click(User user) {
-//        if(user.isLogIn() && (!isPremiumContent() || user.isPremiumMember()))
-            users.add(user);
+        users.add(user);
     }
 
     public int getLength() {
         return length;
     }
-
-
-
-
 
 
 }

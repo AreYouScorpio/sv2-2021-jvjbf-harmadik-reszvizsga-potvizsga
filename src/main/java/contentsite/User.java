@@ -9,14 +9,14 @@ public class User {
 
     public User(String userName, String password) {
         UserName = userName;
-        this.password = (userName+password).hashCode();
+        this.password = (userName + password).hashCode();
     }
 
-    public void upgradeForPremium(){
+    public void upgradeForPremium() {
         this.isPremium = true;
     }
 
-    public void setLogIn(boolean value){
+    public void setLogIn(boolean value) {
         this.isOnline = value;
     }
 

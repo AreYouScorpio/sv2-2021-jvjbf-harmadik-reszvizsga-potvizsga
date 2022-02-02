@@ -3,7 +3,7 @@ package contentsite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Podcast implements Content{
+public class Podcast implements Content {
 
     private String title;
     private List<String> speakers = new ArrayList<>();
@@ -39,10 +39,8 @@ public class Podcast implements Content{
 
     @Override
     public void click(User user) {
-    users.add(user);
+        users.add(user);
     }
-
-
 
 
 }
