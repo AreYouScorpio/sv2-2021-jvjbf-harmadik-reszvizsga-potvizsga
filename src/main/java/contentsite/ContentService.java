@@ -34,4 +34,14 @@ public class ContentService {
         allContent.add(content);
     }
 
+    public void logIn(String username, String password){
+        if (!allUsers.stream().anyMatch(u->u.getUserName().equals(username)))
+            throw new IllegalArgumentException("Username is wrong!" );
+        User user=allUsers.stream().filter(u->u.getUserName().equals(username)).findFirst().get();
+        int passHash=(username + password).hashCode();
+        if(passHash!=user.getPassword())
+            throw new IllegalArgumentException("Password is Invalid!" );
+        user.setLogIn(true);
+    }
+
 }
