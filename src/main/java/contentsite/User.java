@@ -2,10 +2,10 @@ package contentsite;
 
 public class User {
 
-    String UserName;
-    int password;
-    boolean isPremium;
-    boolean isOnline;
+    private String UserName;
+    private int password;
+    private boolean isPremium;
+    private boolean isOnline;
 
     public User(String userName, String password) {
         UserName = userName;

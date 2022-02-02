@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PodcastTest {
 
-/*
+
     @Test
     void createPodcast(){
         Content podcast = new Podcast("Java Language", List.of("John Doe","Jane Doe"));
@@ -19,6 +19,8 @@ class PodcastTest {
         Podcast podcast1 = (Podcast) podcast;
         assertEquals(podcast1.getSpeakers(),List.of("John Doe","Jane Doe"));
     }
+
+
 
     @Test
     void clickTest(){
@@ -39,5 +41,6 @@ class PodcastTest {
 
 
 
- */
+
+
 }

@@ -20,15 +20,17 @@ class VideoTest {
         Content video1 = new Video("Little kittens", 14);
         assertFalse(video1.isPremiumContent());
     }
-
+/*
     @Test
     void clickTest(){
-        Content podcast = new Video("Java Language", 16);
+        Content podcast = new Video("Java Language", 14);
         podcast.click(new User("username","1234"));
         assertEquals(1, podcast.clickedBy().size());
         assertEquals("username",podcast.clickedBy().get(0).getUserName());
     }
-/*
+
+
+
     @Test
     void getClickedByTest(){
         Content podcast = new Video("Java Language", 16);
@@ -40,4 +42,5 @@ class VideoTest {
 
 
  */
+
 }

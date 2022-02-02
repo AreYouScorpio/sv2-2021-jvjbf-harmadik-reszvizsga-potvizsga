@@ -1,12 +1,14 @@
 package contentsite;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Video implements Content {
 
+
     private String title;
     private int length;
-    private List<User> users;
+    private List<User> users=new ArrayList<>();
 
     public Video(String title, int length) {
         this.title = title;
@@ -29,7 +31,8 @@ public class Video implements Content {
 
     @Override
     public void click(User user) {
-        users.add(user);
+        if(user.isLogIn() && (!isPremiumContent() || user.isPremiumMember()))
+            users.add(user);
     }
 
     public int getLength() {
