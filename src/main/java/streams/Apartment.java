@@ -5,7 +5,7 @@ import java.util.List;
 public class Apartment {
     private String location;
     private int size;
-    public BathRoomType bathRoomType;
+    private BathRoomType bathRoomType;
 
     private List<String> extras;
 
