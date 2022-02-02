@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExamResultTest {
 
+    /*
 
     @Test
     void createExamResult() {
@@ -15,5 +16,7 @@ class ExamResultTest {
         assertEquals(50, examResult.getTheory());
     }
 
+
+     */
 
 }

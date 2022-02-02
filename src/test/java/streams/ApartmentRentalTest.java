@@ -51,15 +51,20 @@ class ApartmentRentalTest {
         assertEquals(2, result.size());
     }
 
+
+
     @Test
     void testApartmentWithBathroomType(){
         assertTrue(apartmentRental.isThereApartmentWithBathroomType(BathRoomType.ONE_PER_ROOM));
         assertFalse(apartmentRental.isThereApartmentWithBathroomType(BathRoomType.ONE_FOR_TWO_ROOMS));
     }
 
+
+
     @Test
     void testFindApartmentsSize(){
         assertEquals(List.of(54,62,44,70),apartmentRental.findApartmentsSize());
     }
+
 
 }

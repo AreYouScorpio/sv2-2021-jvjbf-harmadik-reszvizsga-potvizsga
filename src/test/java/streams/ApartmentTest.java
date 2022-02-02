@@ -19,4 +19,6 @@ class ApartmentTest {
         assertEquals(List.of("WIFI","Play Station"), apartment.getExtras());
     }
 
+
+
 }

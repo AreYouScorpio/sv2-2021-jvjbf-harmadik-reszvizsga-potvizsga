@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExamServiceTest {
 
+    /*
     ExamService examService;
 
     @BeforeEach
@@ -45,4 +46,6 @@ class ExamServiceTest {
     }
 
 
+
+     */
 }
