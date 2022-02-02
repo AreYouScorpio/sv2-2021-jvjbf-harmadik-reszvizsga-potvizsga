@@ -6,13 +6,7 @@ public class Apartment {
     private String location;
     private int size;
     public BathRoomType bathRoomType;
-    //{
-        /*ONE_FOR_CORRIDOR,
-        ONE_FOR_TWO_ROOMS,
-        ONE_PER_ROOM
 
-         */
-    //};
     private List<String> extras;
 
     public String getLocation() {
